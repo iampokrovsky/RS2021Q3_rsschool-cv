@@ -1,18 +1,15 @@
 # Andrey Pokrovsky
 Web developer
 
-___
 ## Contacts
 * Phone: +7 965 123 34 45
 * E-mail: writeme@mail.ru
 
-___
 ## Work experience
 - **June 2020 - March 2021 - State University of Management, Moscow**
 - **March 2021 - June 2021 - Moscow Aviation Institute**
 - **March 2021 - until now - Dental network NovaDent**
 
-___
 ## Knowledge and skills
 
 **Knowledge:**
@@ -46,7 +43,6 @@ ___
 - Creating the necessary visual content using the editors Adobe Photoshop and Figma
 - Connecting ready-made web pages to a content management system
 
-___
 ## Portfolio
 - Сайт компании по производству металлоконструкций ПФК Профметмонтаж  
 profmetmontazh.ru
@@ -65,6 +61,5 @@ iampokrovsky.github.io/my-todo
 - Новый дизайн страниц официального сайта ГУУ  
 guu.ru
 
-___
 ## English
 A1
