@@ -6,9 +6,9 @@ Web developer
 * E-mail: writeme@mail.ru
 
 ## Work experience
-- **June 2020 - March 2021 - State University of Management, Moscow**
-- **March 2021 - June 2021 - Moscow Aviation Institute**
-- **March 2021 - until now - Dental network NovaDent**
+- June 2020 - March 2021 - State University of Management, Moscow
+- March 2021 - June 2021 - Moscow Aviation Institute
+- March 2021 - until now - Dental network NovaDent
 
 ## Knowledge and skills
 
