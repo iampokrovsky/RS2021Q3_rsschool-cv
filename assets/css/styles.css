@@ -319,12 +319,16 @@ p {
 }
 
 .footer .gh {
-  margin-bottom: 3rem;
+  margin-bottom: 1rem;
 }
 
 .footer .fa-github {
   display: inline-block;
   margin-right: 1rem;
+}
+
+.footer .year {
+  margin-bottom: 2rem;
 }
 
 .footer .rs-img {
