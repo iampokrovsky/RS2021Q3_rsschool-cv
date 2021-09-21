@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <title>Andrey Pokrovsky</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="СV of Andrey Pokrovsky web developer">
+  <link rel="shortcut icon" href="favicon.ico">
+  <link
+    href='https://fonts.googleapis.com/css?family=Roboto:400,500,400italic,300italic,300,500italic,700,700italic,900,900italic'
+    rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/plugins/font-awesome/css/font-awesome.css">
+  <link id="theme-style" rel="stylesheet" href="assets/css/styles.css">
+  <link rel="stylesheet" href="assets/plugins/highlight.js-11.2.0/default.min.css">
+</head>
+
+<body>
+  <main>
+    <div class="wrapper">
+      <div class="sidebar-wrapper">
+        <div class="profile-container">
+          <img class="profile" src="assets/images/photo.jpg" width="100" height="100" alt="Andrey Pokrovsky">
+          <h1 class="name">Andrey Pokrovsky</h1>
+          <h3 class="tagline">Web developer</h3>
+        </div>
+        <div class="contact-container container-block">
+          <ul class="list-unstyled contact-list">
+            <li class="email"><i class="fa fa-envelope"></i>iampokrovsky@gmail.com</li>
+            <li class="phone"><i class="fa fa-phone"></i>+7 (965) 165-08-88</li>
+            <li class="github"><i class="fa fa-github"></i><a href="https://github.com/iampokrovsky"
+                target="_blank">github.com/iampokrovsky</a></li>
+          </ul>
+        </div>
+        <div class="education-container container-block">
+          <h2 class="container-block-title">Education</h2>
+          <div class="item">
+            <h4 class="degree">General education</h4>
+            <h5 class="meta">School 830 of Moscow</h5>
+            <div class="time">2005 - 2016</div>
+          </div>
+        </div>
+        <div class="languages-container container-block">
+          <h2 class="container-block-title">Languages</h2>
+          <ul class="list-unstyled interests-list">
+            <li>Russian <span class="lang-desc">(Native)</span></li>
+            <li>English <span class="lang-desc">(A1)</span></li>
+          </ul>
+        </div>
+      </div>
+      <div class="main-wrapper">
+
+        <section class="section summary-section">
+          <h2 class="section-title"><i class="fa fa-user"></i>About me</h2>
+          <div class="summary">
+            <p>
+              I like working in IT, I like programming. I like to communicate with people, I like to work in a team. I
+              like to be useful to the common cause, to develop and improve the product I’m working on. My dream is to
+              become a NodeJS backend developer.
+            </p>
+          </div>
+          <!--//summary-->
+        </section>
+        <!--//section-->
+
+        <section class="skills-section section">
+          <h2 class="section-title"><i class="fa fa-rocket"></i>Knowledge and skills</h2>
+          <div class="skillset">
+            <h3 class="level-title d-block w-100">Knowledge:</h3>
+            <ul>
+              <li>HTML 5</li>
+              <li>CSS 3</li>
+              <li>JavaScript</li>
+              <li>PHP</li>
+              <li>Gulp</li>
+              <li>Pug (Jade)</li>
+              <li>Git и GitHub</li>
+              <li>Figma</li>
+              <li>Bootstrap</li>
+              <li>Adobe Photoshop</li>
+              <li>BEM</li>
+            </ul>
+          </div>
+          <div class="skillset">
+            <h3 class="level-title d-block w-100">Skills:</h3>
+            <ul>
+              <li>Adaptive cross-browser valid layout using BEM methodology</li>
+              <li>Developing interactive modules and simple web applications using JavaScript</li>
+              <li>Using build systems in the work, writing instructions for t~~heir operation</li>
+              <li>Using the Git version control system and the GitHub</li>
+              <li>Design of individual elements of the user interface using a common design concept</li>
+              <li>Connecting and configuring ready-made modules and libraries</li>
+              <li>Optimizing website performance</li>
+              <li>Development of technical specifications for the site</li>
+              <li>Reading technical documentation in English</li>
+              <li>Improving the accessibility of web pages for people with disabilities</li>
+              <li>Form creation and processing</li>
+              <li>Website administration, content filling</li>
+              <li>Optimization of the code of existing projects</li>
+              <li>Photo processing and optimization</li>
+              <li>Creating the necessary visual content using the editors Adobe Photoshop and Figma</li>
+              <li>Connecting ready-made web pages to a content management system</li>
+            </ul>
+          </div>
+        </section>
+
+        <section class="section code-example-section">
+          <h2 class="section-title"><i class="fa fa-briefcase"></i>Code example</h2>
+          <p>The solution of the <a href="https://www.codewars.com/kata/541c8630095125aba6000c00/train/javascript"
+              target="_blank">Sum of
+              Digits / Digital Root</a> problem on Codewars.</p>
+          <pre><code>
+function digital_root(n) {
+
+  if (n &lt; 10) {
+    return n;
+  }
+  
+  number = String(n).split('');
+  sum = 0;
+  
+  for (digit of number) {
+    sum += parseInt(digit);
+    console.log(parseInt(digit))
+  }
+  
+  return digital_root(sum);
+}
+        </code></pre>
+        </section>
+
+        <section class="section experiences-section">
+          <h2 class="section-title"><i class="fa fa-briefcase"></i>Work experience</h2>
+          <div class="item">
+            <div class="meta">
+              <div class="upper-row">
+                <h3 class="job-title">Ivan Sokolov web studio</h3>
+                <div class="time">October 2019 - June 2020</div>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="meta">
+              <div class="upper-row">
+                <h3 class="job-title">State University of Management, Moscow</h3>
+                <div class="time">June 2020 - March 2021</div>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="meta">
+              <div class="upper-row">
+                <h3 class="job-title">Moscow Aviation Institute</h3>
+                <div class="time">March 2021 - June 2021</div>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="meta">
+              <div class="upper-row">
+                <h3 class="job-title">Moscow Center of Dental Implantology ROOTT</h3>
+                <div class="time">June 2021 - until now</div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="wrapper">
+      <div class="text-center">
+        <p class="gh">
+          <i class="fa fa-github"></i><a href="https://github.com/iampokrovsky"
+            target="_blank">github.com/iampokrovsky</a>
+        </p>
+        <p class="year">
+          2021
+        </p>
+        <p class="rs text-center">
+          <img class="rs-img" src="assets/images/rs_school_js.svg" width="200" alt="The Rolling Scopes">
+          <a href="https://rs.school/js/" target="_blank">Бесплатный курс «JavaScript/Front-end» от сообщества The
+            Rolling
+            Scopes</a>
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/plugins/highlight.js-11.2.0/highlight.min.js"></script>
+  <script>
+    hljs.initHighlightingOnLoad();
+  </script>
+</body>
+
+</html>
